@@ -1,6 +1,8 @@
-const data =new Date('2024-05-12');
+const data =new Date();
 const diaSemana = data.getDay();
 const diaSemanaText = getDiaSemanaText(diaSemana);
+
+
 function getDiaSemanaText (diaSemana){
 let diaSemanaText;
 
@@ -32,4 +34,4 @@ switch (diaSemana){
 }
 
 }
-console.log(diaSemana,diaSemanaText);
+console.log(diaSemana,diaSemanaText,data);
