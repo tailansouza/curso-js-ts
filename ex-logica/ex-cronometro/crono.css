@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(5, 101, 140);
+}
+
+
+section{
+    width: 70%;
+    padding: 1rem;
+    margin: 8rem auto;
+    border-radius: 1rem;
+    background-color: rgb(218, 245, 245);
+
+    & h1{
+        text-align: center;
+    }
+    & .mostrador{
+        text-align: center;
+        font-size: 5rem;
+    }
+    & .container-buttons{
+        text-align: center;
+
+        & button{
+            cursor: pointer;
+            border-radius: 1rem;
+            font-size: 2rem;
+        }
+    }
+}

@@ -1,6 +1,6 @@
 function mostraHora (){
     let data = new Date();
-
+    
     return data.toLocaleTimeString('py-br',{
         hour12: false
     });
