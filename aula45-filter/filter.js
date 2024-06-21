@@ -3,7 +3,7 @@ const numeros = [5, 50, 80, 1, 2, 3, 4, 5, 10, 15, 30];
 
 const filtrados = numeros.filter(valor=> valor > 10);
 
-//console.log(filtrados)
+console.log(filtrados)
 
 const pessoas = [
     {nome:'tailan',  idade: 19},

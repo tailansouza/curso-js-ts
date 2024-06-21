@@ -4,7 +4,7 @@ const total = numeros.reduce(function (acumulador,valor,indice,array){
     acumulador.push(valor*2)
 return acumulador
 },[])
-//console.log(total)
+console.log(total)
 
 const pessoas = [
     { nome: 'aaa', idade: 19 },
@@ -20,4 +20,4 @@ if (acumulador.idade > valor.idade)return acumulador ;
 return valor
 
 })
-console.log(maisVelha.nome +' '+ maisVelha.idade)
+//console.log(maisVelha.nome +' '+ maisVelha.idade)
